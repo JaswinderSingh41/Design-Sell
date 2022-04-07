@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+
+.Brand-Name {
+    color: white;
+    /* align-self: center; */
+    font-size: large;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+.navbar-list ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.navbar-list li {
+    list-style: none;
+}
+
+.navbar-list li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navbar-list li a:hover {
+    color: red;
+}
+
+body {
+    background: url('https://i.ibb.co/f4sng65/ed.jpg');
+}
+
+.ab1 {
+    display: block;
+    color: red;
+    /* background-color: white; */
+    text-align: center;
+}
+
+.para3 {
+    color: #133ca0;
+    text-align: center;
+    margin: 2rem;
+}
